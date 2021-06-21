@@ -1,6 +1,6 @@
-<div style="text-align: center;" >
+<p align="center" >
 <img src="https://i.imgur.com/SbhNaFr.png" />
-</div>
+</p>
 <h1 align="center">NLW - Valoriza</h1>
 
 Aqui você irá encontrar o código do NLW together na trilha de NodeJS junto com algumas adições ou melhorias!
