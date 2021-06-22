@@ -39,6 +39,10 @@ yarn dev
 
 ```
 
+## Configuração
+
+Para a aplicação iniciar, você terá que configurar o banco de dados no `ormconfig.json`, se você não sabe sobre isso, dê uma olhada no [Quick Start](https://typeorm.io/#/undefined/quick-start) do TypeORM!
+
 ## Contato
 
 Se você tiver alguma dúvida ou problema abra uma issue no repositório ou me contate pelo Discord! ThallesComH#5607.

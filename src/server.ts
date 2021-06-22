@@ -1,14 +1,18 @@
+import "reflect-metadata";
 import express from "express";
+import "express-async-errors";
+
+import "./database";
+import router from "./routes";
+import { ErrorHandling } from "./middlewares/ErrorHandling";
 
 const app = express();
 
-app.get("/test", (request, response) => {
-  return response.send("NLW");
-});
+app.use(express.json());
 
-app.post("/test-post", (request, response) => {
-  return response.send("NLW Post method");
-});
+app.use(router);
+
+app.use(ErrorHandling);
 
 app.listen(3333, () => {
   console.log("Server running on :3333");
