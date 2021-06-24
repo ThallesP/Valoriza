@@ -39,10 +39,13 @@ yarn dev
 
 ```
 
-## Configuração
+# Configuração
 
 Para a aplicação iniciar, você terá que configurar o banco de dados no `ormconfig.json`, se você não sabe sobre isso, dê uma olhada no [Quick Start](https://typeorm.io/#/) do TypeORM!
 
-## Contato
+## Variáveis de ambiente
 
-Se você tiver alguma dúvida ou problema abra uma issue no repositório ou me contate pelo Discord! ThallesComH#5607.
+Para iniciar esse projeto, você irá precisar definir as seguintes variáveis:
+
+`APP_KEY`  
+Key usada para geração de hash de senhas, recomendado gerar um hash do tipo [MD5](https://onlinehashtools.com/generate-random-md5-hash) aleatório
