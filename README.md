@@ -49,3 +49,7 @@ Para iniciar esse projeto, você irá precisar definir as seguintes variáveis:
 
 `APP_KEY`  
 Key usada para geração de hash de senhas, recomendado gerar um hash do tipo [MD5](https://onlinehashtools.com/generate-random-md5-hash) aleatório
+
+## Contato
+
+Se você tiver alguma dúvida ou problema abra uma issue no repositório ou me contate pelo e-mail: contato@thalles.me
