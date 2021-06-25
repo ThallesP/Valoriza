@@ -10,6 +10,7 @@ export function ErrorHandling(
   if (err instanceof ApplicationException)
     return response.status(err.statusCode).json({ message: err.message });
 
+  console.log(err);
   return response.status(500).json({
     message: `Internal server error - ${err.message}`,
   });
