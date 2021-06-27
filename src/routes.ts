@@ -36,7 +36,12 @@ router.post(
 );
 router.get("/users", ensureAuthenticated, listUsersController.handle);
 
-router.get("/tags", listTagsController.handle);
+router.get(
+  "/tags",
+  ensureAuthenticated,
+  ensureAdmin,
+  listTagsController.handle
+);
 router.patch("/tags/:id", updateTagController.handle);
 
 router.post("/login", authenticateUserController.handle);
